@@ -1,0 +1,16 @@
+.container {
+    font-family: $general-font;
+    text-align: center;
+    color: $dark-grey;
+    @include center_container
+}
+
+.link {
+    color: $blue;
+    text-decoration: none;
+    border:1px solid green;
+
+    &:visited {
+        color: $blue;
+    }
+}

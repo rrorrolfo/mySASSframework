@@ -1,0 +1,57 @@
+/** FONT STYLES **************/
+/**   FONT COLORS **********/
+/**   FONT SIZES   ***********/
+/****  GUTTERS  ************/
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.nav__item a {
+  font-size: 1rem;
+  padding: 10px 0;
+  display: block;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.nav__item a:hover {
+  background-color: #83c7a4;
+  color: #fff;
+}
+.nav__item a:visited {
+  color: #858282;
+}
+
+.container {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #858282;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.link {
+  color: #67b8d8;
+  text-decoration: none;
+  border: 1px solid green;
+}
+.link:visited {
+  color: #67b8d8;
+}
+
+.grid__row {
+  font-size: 1.2rem;
+  margin: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.grid__col--12 {
+  text-align: left;
+}
+
+/*# sourceMappingURL=style.css.map */

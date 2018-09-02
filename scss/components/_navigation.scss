@@ -1,0 +1,21 @@
+
+.nav__item {
+
+    a{
+        font-size: $small;
+        padding: 10px 0;
+        display: block;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    
+    a:hover {
+        background-color: $green;
+        color: $white;
+    }
+
+    a:visited {
+        color: $dark-grey;
+    }
+
+}

@@ -1,0 +1,14 @@
+
+.grid__row {
+
+    font-size: $normal;
+    margin: $standard 0;
+    @include flexbox {
+        flex-direction: column;
+    }
+}
+
+
+.grid__col--12 {
+    text-align: left;
+}
