@@ -4,7 +4,7 @@
     a{
         font-size: $small;
         padding: 10px 0;
-        display: block;
+        @extend %display-content;
         text-decoration: none;
         border-radius: 10px;
         font-weight: $heavy;
