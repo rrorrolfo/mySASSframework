@@ -8,7 +8,15 @@
     }
 }
 
+.grid__col--6 {
+    margin: 10px 0;
+    border: 1px solid red;
+}
+.grid__col--8 {
+    @extend %content-to-left;
+}
 
 .grid__col--12 {
-    text-align: left;
+    @extend %content-to-left;
 }
+

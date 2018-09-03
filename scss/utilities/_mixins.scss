@@ -1,5 +1,5 @@
-@mixin center_container {
-    width: 90%;
+@mixin center_container ($wd){
+    width: $wd;
     margin: 0 auto;
 }
 
@@ -7,4 +7,10 @@
     display:flex;
     flex-wrap:wrap;
     @content
+}
+
+@mixin visited ($color){
+    &:visited {
+        color: $color;
+    }
 }

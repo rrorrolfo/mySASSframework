@@ -7,15 +7,14 @@
         display: block;
         text-decoration: none;
         border-radius: 10px;
-    }
-    
-    a:hover {
-        background-color: $green;
-        color: $white;
-    }
+        font-weight: $heavy;
 
-    a:visited {
-        color: $dark-grey;
+        @include visited($dark-grey);
+    
+        &:hover {
+            background-color: $green;
+            color: $white;
+        }
     }
 
 }
