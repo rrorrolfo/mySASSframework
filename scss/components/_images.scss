@@ -1,12 +1,16 @@
 .img--logo {
     @extend %display-content;
     margin:  0 auto;
+
+    @include media ($num: null) {
+        margin: 0 auto 0 0;
+    }
 }
 
 .img--frame {
     border: 1px solid $dark-grey;
     padding: $small-gut;
-    width: 95%;
+    max-width: 100%;
 }
 
 .img--avatar {

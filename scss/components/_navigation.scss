@@ -18,4 +18,9 @@
         }
     }
 
+    @include media ($num: null) {
+        a {
+            padding: 10px;
+        }
+    }
 }

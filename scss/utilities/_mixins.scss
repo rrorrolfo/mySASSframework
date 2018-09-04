@@ -34,3 +34,10 @@
     border-radius: 5px;
     background-color: $back-color;
 }
+
+@mixin media ($num){
+    @media(min-width: 1400px) {
+        flex-grow: $num;
+        @content;
+    }
+}
