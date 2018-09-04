@@ -8,6 +8,7 @@
         text-decoration: none;
         border-radius: 10px;
         font-weight: $heavy;
+        color: $dark-grey;
 
         @include visited($dark-grey);
     

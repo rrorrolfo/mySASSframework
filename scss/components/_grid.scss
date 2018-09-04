@@ -6,17 +6,57 @@
     @include flexbox {
         flex-direction: column;
     }
+
 }
 
-.grid__col--6 {
-    margin: 10px 0;
-    border: 1px solid red;
+.grid__col--2.theme__colors {  
+    
 }
-.grid__col--8 {
+
+.grid__col--3.theme__colors {
+    @include grid($purple);
     @extend %content-to-left;
 }
 
-.grid__col--12 {
+.grid__col--4.theme__colors{
+    @include grid($light-blue);
     @extend %content-to-left;
 }
 
+.grid__col--5.theme__colors{
+    @include grid($green);
+    @extend %content-to-left;
+}
+
+.grid__col--6.theme__colors {
+    @include grid($blue);
+    @extend %content-to-left;
+}
+
+.grid__col--7.theme__colors {
+    @include grid($light-red);
+    @extend %content-to-left;
+}
+
+.grid__col--8.theme__colors {
+    @include grid($light-orange);
+    @extend %content-to-left;
+}
+
+.grid__col--9 {
+ 
+}
+
+.grid__col--10 {
+    
+}
+
+.grid__col--11{
+    
+}
+
+.grid__col--12.theme__colors {
+    @include grid($light-green);
+    @extend %content-to-left;
+
+}

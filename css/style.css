@@ -1,12 +1,16 @@
 /** FONT STYLES **************/
-/**   FONT COLORS **********/
+/** ** COLORS **********/
 /**   FONT SIZES   ***********/
 /****  GUTTERS  ************/
-.grid__col--12, .grid__col--8 {
+.grid__col--12.theme__colors, .grid__col--8.theme__colors, .grid__col--7.theme__colors, .grid__col--6.theme__colors, .grid__col--5.theme__colors, .grid__col--4.theme__colors, .grid__col--3.theme__colors, p {
   text-align: left;
 }
 
-.nav__item a, .form__input {
+ul {
+  text-align: center;
+}
+
+.nav__item a, .img--avatar, .img--logo, .form__input {
   display: block;
 }
 
@@ -19,6 +23,77 @@ p {
   line-height: 1.35;
 }
 
+.grid__row {
+  font-size: 1.1rem;
+  margin: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.grid__col--3.theme__colors {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 13.5px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #bda9b8;
+}
+
+.grid__col--4.theme__colors {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 13.5px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #a5dcf1;
+}
+
+.grid__col--5.theme__colors {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 13.5px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #83c797;
+}
+
+.grid__col--6.theme__colors {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 13.5px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #67b8d8;
+}
+
+.grid__col--7.theme__colors {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 13.5px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #fda0a0;
+}
+
+.grid__col--8.theme__colors {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 13.5px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #f5ab66;
+}
+
+.grid__col--12.theme__colors {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 13.5px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #a9f7c3;
+}
+
 .btn--default {
   width: 100%;
   background-color: #67b8d8;
@@ -27,6 +102,51 @@ p {
   border: none;
   color: #fff;
   font-weight: 500;
+  margin: 10px 0;
+}
+
+.btn--success {
+  width: 100%;
+  background-color: #83c797;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.btn--error {
+  width: 100%;
+  background-color: #ec7a7a;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.btn--warning {
+  width: 100%;
+  background-color: #d67f2e;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.btn--info {
+  width: 100%;
+  background-color: #bda9b8;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin: 10px 0;
 }
 
 .form {
@@ -44,21 +164,23 @@ p {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid #83c7a4;
+  border-bottom: 2px solid #83c797;
   font-weight: 800;
   font-size: 0.8rem;
+}
+
+.img--logo {
+  margin: 0 auto;
 }
 
 .img--frame {
   border: 1px solid #858282;
   padding: 10px;
-  min-width: 100%;
-  max-width: 100%;
+  width: 95%;
 }
 
 .img--avatar {
-  display: block;
-  margin: 0 auto;
+  margin: 25px auto 0;
 }
 
 .nav__item a {
@@ -67,12 +189,13 @@ p {
   text-decoration: none;
   border-radius: 10px;
   font-weight: 500;
+  color: #858282;
 }
 .nav__item a:visited {
   color: #858282;
 }
 .nav__item a:hover {
-  background-color: #83c7a4;
+  background-color: #83c797;
   color: #fff;
 }
 
@@ -96,7 +219,7 @@ p {
 .headline--primary {
   font-size: 1.7rem;
   width: 60%;
-  color: #83c7a4;
+  color: #83c797;
   margin-left: 40px;
 }
 
@@ -112,22 +235,9 @@ p {
   font-size: 1.5rem;
   font-style: italic;
   padding: 0 15px;
-  border-left: 5px solid #83c7a4;
+  border-left: 5px solid #83c797;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-}
-
-.grid__row {
-  font-size: 1.1rem;
-  margin: 25px 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-.grid__col--6 {
-  margin: 10px 0;
-  border: 1px solid red;
 }
 
 /*# sourceMappingURL=style.css.map */
