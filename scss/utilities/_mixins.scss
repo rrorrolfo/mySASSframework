@@ -35,9 +35,15 @@
     background-color: $back-color;
 }
 
-@mixin media ($num){
-    @media(min-width: 1400px) {
-        flex-grow: $num;
+@mixin media2 (
+    $num: null,
+    $align: null,
+    $just: null) 
+    {
+    @media(min-width: $desktop) {
+        flex-basis: $num;
+        text-align: $align;
+        justify-content: $just;
         @content;
     }
 }

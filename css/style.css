@@ -2,6 +2,7 @@
 /** ** COLORS **********/
 /**   FONT SIZES   ***********/
 /****  GUTTERS  ************/
+/*****  Breakpoints ************/
 .grid__col--12.theme__colors, .grid__col--8.theme__colors, .grid__col--7.theme__colors, .grid__col--6.theme__colors, .grid__col--5.theme__colors, .grid__col--4.theme__colors, .grid__col--3.theme__colors, p {
   text-align: left;
 }
@@ -32,8 +33,8 @@ p {
 }
 @media (min-width: 1400px) {
   .grid__row {
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
   }
 }
 
@@ -71,20 +72,20 @@ p {
 }
 @media (min-width: 1400px) {
   .grid__col--9 ul {
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     margin-right: 10%;
   }
 }
 
 @media (min-width: 1400px) {
   .grid__col--12 {
-    margin-top: 25px;
-    display: flex;
-    flex-direction: row;
     flex-basis: 100%;
     justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
   }
 }
 .grid__col--12 button {
@@ -193,7 +194,7 @@ p {
 }
 @media (min-width: 1400px) {
   .grid__col--12.theme__colors {
-    flex-grow: 1;
+    flex-basis: 100%;
   }
 }
 
@@ -348,8 +349,8 @@ p {
 }
 @media (min-width: 1400px) {
   .headline--primary {
-    width: 100%;
     text-align: left;
+    width: 100%;
   }
 }
 

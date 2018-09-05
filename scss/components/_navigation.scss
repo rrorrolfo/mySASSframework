@@ -18,7 +18,7 @@
         }
     }
 
-    @include media ($num: null) {
+    @include media2 {
         a {
             padding: 10px;
         }

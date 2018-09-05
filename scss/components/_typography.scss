@@ -19,9 +19,8 @@
     color: $green;
     margin-left: 40px;
 
-    @include media($num:null) {
+    @include media2($align: left) {
         width: 100%;
-        text-align: left;
     }
 }
 
@@ -41,7 +40,7 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 
-    @include media($num:null) {
+    @include media2 {
         margin-right: 0;
         margin-left: 20px;
         padding-right: 0;

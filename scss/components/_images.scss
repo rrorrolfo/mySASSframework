@@ -2,7 +2,7 @@
     @extend %display-content;
     margin:  0 auto;
 
-    @include media ($num: null) {
+    @include media2 {
         margin: 0 auto 0 0;
     }
 }
@@ -16,7 +16,7 @@
 .img--avatar {
     @extend %display-content;
     margin: $standard auto 0;
-    @include media ($num: null) {
+    @include media2 {
         margin-top: $small-gut;
     }
 }
