@@ -16,4 +16,7 @@
 .img--avatar {
     @extend %display-content;
     margin: $standard auto 0;
+    @include media ($num: null) {
+        margin-top: $small-gut;
+    }
 }
