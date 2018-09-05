@@ -13,8 +13,63 @@
     }
 }
 
-.grid__col--2.theme__colors {  
+.grid__col--3 {
+    @include media($num: null) {
+        flex-basis: 25%;
+        margin-left: 5%;
+    }
+}
+
+.grid__col--4 {
+    @include media ($num: null){
+        flex-basis: 30%;
+    }
+}
+
+.grid__col--6 {
+    @include media ($num: null) {
+        margin-left: 5%;
+        margin-right: auto;
+    }
     
+}
+
+.grid__col--8 {
+    @include media ($num: null){
+        flex-basis: 60%;
+    }
+}
+
+.grid__col--9 {
+    @include media ($num: null) {
+        flex-basis: 50%;
+        margin: 0 auto;
+    }
+
+    ul {
+        @include media ($num: null) {
+            @include flexbox {
+                justify-content: space-around;
+                margin-right: 10%;
+            }
+        }
+
+    }
+}
+
+.grid__col--12 {
+
+    @include media ($num: null) {
+        margin-top: $standard;
+        display: flex;
+        flex-direction: row;
+        flex-basis: 100%;
+        justify-content: space-around;
+    }
+
+    button {
+        flex-basis: 16%;
+    }
 }
 
 .grid__col--3.theme__colors {
@@ -24,6 +79,7 @@
     @include media ($num: null) {
         flex-basis: 22%;
         text-align: center;
+        margin-left: 0;
     }
 }
 
@@ -54,6 +110,7 @@
     @include media ($num: null){
         flex-basis: 47%;
         text-align: center;
+        margin: 0;
     };
 }
 
@@ -84,66 +141,7 @@
         @include media(1);
 }
 
-.grid__col--3 {
-    @include media($num: null) {
-        flex-basis: 25%;
-    }
-}
 
-.grid__col--4 {
-    @include media ($num: null){
-        flex-basis: 30%;
-    }
-}
-
-.grid__col--6 {
-}
-
-.grid__col--8 {
-    @include media ($num: null){
-        flex-basis: 60%;
-    }
-}
-
-.grid__col--9 {
-    @include media ($num: null) {
-        flex-basis: 45%;
-    }
-
-    ul {
-        @include media ($num: null) {
-            @include flexbox {
-                justify-content: space-around;
-                margin-right: 10%;
-            }
-        }
-
-    }
-}
-
-
-.grid__col--10 {
-    
-}
-
-.grid__col--11{
-    
-}
-
-.grid__col--12 {
-
-    @include media ($num: null) {
-        margin-top: $standard;
-        display: flex;
-        flex-direction: row;
-        flex-basis: 100%;
-        justify-content: space-around;
-    }
-
-    button {
-        flex-basis: 16%;
-    }
-}
 
 .centered {
     @include media ($num: null) {

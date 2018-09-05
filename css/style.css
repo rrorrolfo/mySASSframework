@@ -37,6 +37,60 @@ p {
   }
 }
 
+@media (min-width: 1400px) {
+  .grid__col--3 {
+    flex-basis: 25%;
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid__col--4 {
+    flex-basis: 30%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid__col--6 {
+    margin-left: 5%;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid__col--8 {
+    flex-basis: 60%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid__col--9 {
+    flex-basis: 50%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1400px) {
+  .grid__col--9 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 10%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid__col--12 {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content: space-around;
+  }
+}
+.grid__col--12 button {
+  flex-basis: 16%;
+}
+
 .grid__col--3.theme__colors {
   margin-top: 10px;
   font-size: 0.9rem;
@@ -49,6 +103,7 @@ p {
   .grid__col--3.theme__colors {
     flex-basis: 22%;
     text-align: center;
+    margin-left: 0;
   }
 }
 
@@ -94,6 +149,7 @@ p {
   .grid__col--6.theme__colors {
     flex-basis: 47%;
     text-align: center;
+    margin: 0;
   }
 }
 
@@ -139,51 +195,6 @@ p {
   .grid__col--12.theme__colors {
     flex-grow: 1;
   }
-}
-
-@media (min-width: 1400px) {
-  .grid__col--3 {
-    flex-basis: 25%;
-  }
-}
-
-@media (min-width: 1400px) {
-  .grid__col--4 {
-    flex-basis: 30%;
-  }
-}
-
-@media (min-width: 1400px) {
-  .grid__col--8 {
-    flex-basis: 60%;
-  }
-}
-
-@media (min-width: 1400px) {
-  .grid__col--9 {
-    flex-basis: 45%;
-  }
-}
-@media (min-width: 1400px) {
-  .grid__col--9 ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-right: 10%;
-  }
-}
-
-@media (min-width: 1400px) {
-  .grid__col--12 {
-    margin-top: 25px;
-    display: flex;
-    flex-direction: row;
-    flex-basis: 100%;
-    justify-content: space-around;
-  }
-}
-.grid__col--12 button {
-  flex-basis: 16%;
 }
 
 @media (min-width: 1400px) {
@@ -335,6 +346,12 @@ p {
   color: #83c797;
   margin-left: 40px;
 }
+@media (min-width: 1400px) {
+  .headline--primary {
+    width: 100%;
+    text-align: left;
+  }
+}
 
 .headline--secondary {
   text-align: left;
@@ -351,6 +368,13 @@ p {
   border-left: 5px solid #83c797;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+@media (min-width: 1400px) {
+  .blockquote {
+    margin-right: 0;
+    margin-left: 20px;
+    padding-right: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

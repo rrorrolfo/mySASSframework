@@ -18,6 +18,11 @@
     width: 60%;
     color: $green;
     margin-left: 40px;
+
+    @include media($num:null) {
+        width: 100%;
+        text-align: left;
+    }
 }
 
 .headline--secondary {
@@ -35,4 +40,10 @@
     border-left: 5px solid $green;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+
+    @include media($num:null) {
+        margin-right: 0;
+        margin-left: 20px;
+        padding-right: 0;
+    }
 }
